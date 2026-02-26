@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>¡Gracias! — Isaac Paz | Bienestar Digital</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--navy:#0A1F3C;--gold:#C9A84C;--gold-light:#E8C870;--green:#1B5E3B;--white:#FAFAFA;--gray:#8892A4;--gray-light:#C5CDD8;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Inter',sans-serif;background:var(--navy);color:var(--white);min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:60px 20px;}
+  .confirm-box{max-width:600px;width:100%;text-align:center;padding:50px 40px;background:rgba(201,168,76,0.06);border:1px solid rgba(201,168,76,0.25);border-radius:24px;margin-bottom:40px;}
+  .check-icon{font-size:4rem;margin-bottom:20px;display:block;}
+  .confirm-badge{display:inline-block;background:rgba(27,94,59,0.3);border:1px solid #25D366;color:#25D366;font-size:0.68rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:5px 14px;border-radius:30px;margin-bottom:18px;}
+  h1{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,4vw,2.4rem);font-weight:900;margin-bottom:14px;line-height:1.2;}
+  .subtitle{font-size:1rem;color:var(--gray-light);line-height:1.7;margin-bottom:20px;}
+  .spam-note{font-size:0.82rem;color:var(--gray);background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:12px 18px;margin-top:10px;}
+  .next-steps{max-width:700px;width:100%;}
+  .next-steps h2{font-family:'Playfair Display',serif;font-size:1.4rem;color:var(--gold);text-align:center;margin-bottom:24px;}
+  .steps-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px;margin-bottom:36px;}
+  .step-card{background:rgba(13,42,80,0.6);border:1px solid rgba(201,168,76,0.2);border-radius:16px;padding:24px;text-align:center;transition:all 0.3s;}
+  .step-card:hover{transform:translateY(-4px);border-color:var(--gold);}
+  .step-icon{font-size:2rem;margin-bottom:12px;display:block;}
+  .step-card h3{font-family:'Playfair Display',serif;font-size:1rem;color:var(--white);margin-bottom:8px;}
+  .step-card p{font-size:0.8rem;color:var(--gray);line-height:1.5;margin-bottom:14px;}
+  .btn{display:inline-block;padding:9px 20px;border-radius:30px;font-weight:700;font-size:0.82rem;text-decoration:none;transition:all 0.3s;}
+  .btn-gold{background:var(--gold);color:var(--navy);}
+  .btn-gold:hover{background:var(--gold-light);}
+  .btn-fb{background:#1877F2;color:white;}
+  .btn-fb:hover{background:#1565C0;}
+  .btn-wa{background:#25D366;color:white;}
+  .btn-wa:hover{background:#20BA5A;}
+  .personal-msg{max-width:600px;width:100%;background:rgba(13,42,80,0.5);border:1px solid rgba(201,168,76,0.15);border-radius:20px;padding:32px;text-align:center;margin-bottom:30px;}
+  .personal-msg p{font-size:0.92rem;color:var(--gray-light);line-height:1.75;margin-bottom:12px;font-style:italic;}
+  .personal-msg strong{color:var(--gold);font-style:normal;}
+  .signature{font-family:'Playfair Display',serif;font-size:1.1rem;color:var(--white);}
+  footer{text-align:center;margin-top:20px;}
+  .footer-copy{font-size:0.76rem;color:var(--gray);margin-bottom:6px;}
+  .footer-disclaimer{font-size:0.7rem;color:#5A6477;}
+  .footer-back{display:inline-block;color:var(--gold);text-decoration:none;font-size:0.82rem;margin-bottom:12px;}
+</style>
+</head>
+<body>
+  <div class="confirm-box">
+    <span class="check-icon">✅</span>
+    <span class="confirm-badge">✓ Suscripción Confirmada</span>
+    <h1>¡Ya eres parte de Bienestar Digital!</h1>
+    <p class="subtitle">Tu recurso está en camino a tu correo electrónico. En los próximos minutos recibirás el acceso.</p>
+    <div class="spam-note">📧 Si no ves el correo, revisa tu carpeta de <strong>Spam</strong> o <strong>Promociones</strong> y márcalo como no spam.</div>
+  </div>
+  <div class="next-steps">
+    <h2>Mientras esperas tu correo…</h2>
+    <div class="steps-grid">
+      <div class="step-card">
+        <span class="step-icon">📘</span>
+        <h3>Únete al Grupo</h3>
+        <p>Nuestra comunidad en Facebook con más de 1,800 miembros activos.</p>
+        <a href="https://www.facebook.com/profile.php?id=61588545180999" target="_blank" class="btn btn-fb">Unirme →</a>
+      </div>
+      <div class="step-card">
+        <span class="step-icon">📚</span>
+        <h3>Ver Todos los Ebooks</h3>
+        <p>Descarga todos los recursos gratuitos disponibles ahora mismo.</p>
+        <a href="ebooks.html" class="btn btn-gold">Ver Ebooks →</a>
+      </div>
+      <div class="step-card">
+        <span class="step-icon">💬</span>
+        <h3>Canal WhatsApp</h3>
+        <p>Recibe tips diarios y alertas de nuevos contenidos directamente.</p>
+        <a href="https://chat.whatsapp.com/G63cumGwyTl9WCyfqQwZbX?mode=gi_t" target="_blank" class="btn btn-wa">Unirme →</a>
+      </div>
+    </div>
+  </div>
+  <div class="personal-msg">
+    <p>Gracias por confiar en mí. Me tomó más de un año recopilar, investigar y organizar esta información para que tú puedas aprovecharla desde hoy.</p>
+    <p><strong>Estoy genuinamente feliz de que estés aquí.</strong> Bienvenido/a a la familia Bienestar Digital.</p>
+    <p>— <span class="signature">Isaac Paz</span></p>
+  </div>
+  <footer>
+    <a href="index.html" class="footer-back">← Volver al Inicio</a>
+    <div class="footer-copy">© 2026 Isaac Paz | Bienestar Digital · isaacpazebook.com</div>
+    <div class="footer-disclaimer">⚠️ El contenido es informativo y educativo. No reemplaza el consejo médico profesional.</div>
+  </footer>
+</body>
+</html>
